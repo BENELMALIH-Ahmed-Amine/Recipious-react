@@ -4,8 +4,8 @@ import { Images } from "../Constents";
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#ebe8e8] flex justify-center pt-20 pb-5">
-            <div className="w-[55%]">
+        <div className="w-full bg-lime-50 flex justify-center pt-20 pb-5">
+            <footer className="w-[60%]">
                 <section className="flex justify-between items-center pb-20">
                     <section className="w-90 ">
                         <div className="w-[110px]"><a href="#" className="flex font-bold"><img className="" src={Images.icon} alt="" /></a></div>
@@ -16,28 +16,28 @@ const Footer = () => {
                         <div>
                             <h6 className="font-bold">Tastebite</h6>
                             <ul>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">About us</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Careers</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Contact us</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Feedback</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">About us</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Careers</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Contact us</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Feedback</a></li>
                             </ul>
                         </div>
                         <div>
                             <h6 className="font-bold">Legal</h6>
                             <ul>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Terms</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Conditions</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Cookies</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Copyright</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Terms</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Conditions</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Cookies</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Copyright</a></li>
                             </ul>
                         </div>
                         <div>
                             <h6 className="font-bold">Follow</h6>
                             <ul>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Facebook</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Twitter</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Instagram</a></li>
-                                <li className="text-[#7F7F7F] hover:text-orange-500"><a href="#">Youtube</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Facebook</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Twitter</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Instagram</a></li>
+                                <li className="text-[#7F7F7F] hover:text-lime-500"><a href="#">Youtube</a></li>
                             </ul>
                         </div>
                     </section>
@@ -55,8 +55,8 @@ const Footer = () => {
                         </section>
                     </div>
                 </section>
-            </div>
-        </footer>
+            </footer>
+        </div>
     )
 }
 export default Footer
