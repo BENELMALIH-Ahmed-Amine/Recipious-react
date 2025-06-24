@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
-import { Data } from "../Constents";
 import { BiStar } from "react-icons/bi";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { Mycontext } from "../Context";
 
 
 const RecipeDetails = () => {
     const { id } = useParams()
-    const Recipes_Data = Data.recipes
+    const { Recipes } = useContext(Mycontext)
 
-    const recipe = Recipes_Data.find(e => e.id == id)
-
+    const recipe = Recipes.find(e => e.id == id)
+    console.log(Recipes);
+    
     return (
         <main className="w-full bg-lime-200  py-20 flex flex-col items-center justify-center gap-10">
             <article className="w-[60%]">
