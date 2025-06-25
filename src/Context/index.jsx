@@ -1,6 +1,6 @@
 import axios from "axios";
 import { createContext, useEffect, useState } from "react";
-import { Data } from "../Constents";
+// import { Data } from "../Constents";
 
 export const Mycontext = createContext()
 
@@ -11,10 +11,10 @@ export const MyProvider = ({ children }) => {
 
     useEffect(() => {
         const GetRecipes = async () => {
-            let Recipes_D = await axios.get('https://dummyjson.com/recipes')
-            console.log(Recipes_D);
-
+            let Recipes_D = await axios.get(import.meta.env.VITE_APP_RECIPES_URL)
+            
             let Recipes_Data = await Recipes_D.data.recipes
+            console.log(Recipes_Data);
             setRecipesD(Recipes_Data);
         }
 
