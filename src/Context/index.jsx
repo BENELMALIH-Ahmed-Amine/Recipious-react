@@ -1,6 +1,6 @@
 import axios from "axios";
 import { createContext, useEffect, useState } from "react";
-// import { Data } from "../Constents";
+import { Data } from "../Constents";
 
 export const Mycontext = createContext()
 
@@ -22,10 +22,12 @@ export const MyProvider = ({ children }) => {
     }, [])
 
     // Chefs:
-    // const [chef, newChefs] = useState(Data.Chefs.Profil)
+    const [chefs, newChefs] = useState(Data.Chefs.Profils)
+    console.log(chefs);
+    
 
 
-    const all = { Recipes, setRecipesD }
+    const all = { Recipes, setRecipesD, chefs, newChefs, }
 
     return <Mycontext.Provider value={all}>{children}</Mycontext.Provider>
 }

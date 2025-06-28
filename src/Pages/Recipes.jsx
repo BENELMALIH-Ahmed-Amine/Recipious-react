@@ -11,7 +11,7 @@ const Recipes = () => {
         <main className="w-full bg-lime-200 flex flex-col items-center">
             <Hero HeroImage={Images.heroR} />
 
-            <section className="w-[60%] h-auto p-5 bg-lime-300 flex flex-wrap gap-x-[0.9rem] gap-y-10 mt-10">
+            <section className="w-[60%] h-auto p-5 bg-lime-300 flex flex-wrap justify-center gap-x-[0.9rem] gap-y-10 mt-10">
                 {
                     Recipes.map((r, index) =>
                         <article key={index} className="w-[24%] bg-lime-400 pb-3 flex flex-col gap-1.5">

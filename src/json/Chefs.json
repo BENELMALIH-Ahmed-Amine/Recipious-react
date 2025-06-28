@@ -17,18 +17,6 @@
             "image": "chef3",
             "name": "Hassna Motawakil",
             "baio": "Have you ever eat an Omellet? Sure?!"
-        },
-        {
-            "id": 4,
-            "image": "chefX",
-            "name": "Name LastName",
-            "baio": "a baio"
-        },
-        {
-            "id": 5,
-            "image": "chefY",
-            "name": "Name LastName",
-            "baio": "a baio"
         }
     ]
 }
